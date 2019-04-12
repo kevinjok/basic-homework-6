@@ -3,14 +3,14 @@
 int main(void)
 {
 	int year;
-	printf("½Ð¿é¤J¦~¤À\n");
+	printf("請輸入年分\n");
 	scanf("%d",&year);
 	if(year%4==0 && year%100!=0 || year%400==0)
 	{
-		printf("¶|¦~");
+		printf("閏年");
 	}
 	else
 	{
-		printf("¥­¦~");
+		printf("平年");
 	}
 }
